@@ -1,0 +1,3 @@
+data/executables/*
+!data/executables/.keep
+secrets/

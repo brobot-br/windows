@@ -64,3 +64,9 @@ O Windows estará disponível em `http://localhost:8006`.
 - O diretório compartilhado entre host e contêiner pode causar problemas na compilação
 - Certifique-se de que todas as dependências estão incluídas no executável
 
+
+## Scripts
+
+- **zip_splitter.rb**: Script que divide arquivos ZIP grandes em partes menores respeitando limites de arquivos e tamanho, com envio via API
+- **zip_divider.rb**: Utilitário para dividir arquivos ZIP em múltiplos arquivos baseado em tamanho aproximado e número máximo de arquivos por ZIP 
+

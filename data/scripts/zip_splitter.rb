@@ -12,7 +12,7 @@ require 'tempfile'
 class ZipSplitter
   MAX_FILES_PER_ZIP = 500
   MAX_SIZE_PER_ZIP = 1 * 1024 * 1024 # 1.megabyte
-  REQUEST_INTERVAL = 0.5
+  REQUEST_INTERVAL = 0.1
 
   def initialize(token, zip_file_path, env)
     @token = token
